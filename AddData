@@ -9,6 +9,7 @@ public class Add {
           System.out.println(x-y);
             System.out.println(x*y);
               System.out.println(x%y);
+//git data this is for study pull
 
     }
 }
