@@ -2,7 +2,8 @@ package com.controlStatements;
 
 import java.util.Scanner;
 
-public class CalculatorUsingSwitchCase {
+public class CalculatorUsingSwitchCaseOperator {
+
     public static void main(String[] args) {
         System.out.println("Calculator");
         System.out.println("**********");
@@ -12,31 +13,32 @@ public class CalculatorUsingSwitchCase {
         System.out.println("Enter Second value");
         int num2=sc.nextInt();
 
-        System.out.println("1.Addition");
-        System.out.println("2.Subtraction");
-        System.out.println("3.Multiplication");
-        System.out.println("4.Division");
+        System.out.println("+.Addition");
+        System.out.println("-.Subtraction");
+        System.out.println("*.Multiplication");
+        System.out.println("/.Division");
         System.out.println("Select the Operation do you want?");
-        int oper=sc.nextInt();
+        char oper=sc.next().charAt(0);
 
         switch(oper)
         {
-            case 1:
+            case '+':
                 System.out.println("Result Addition :"+(num1+num2));
                 break;
-            case 2:
+            case '-':
                 System.out.println("Result Subtraction :"+(num1-num2));
                 break;
-            case 3:
+            case '*':
                 System.out.println("Result Multiplication :"+(num1*num2));
                 break;
-            case 4:
+            case '/':
                 System.out.println("Result Division :"+(num1/num2));
                 break;
             default:
-                System.err.println("Invalid");
+                System.out.println("Invalid");
                 break;
         }
 
     }
+
 }
