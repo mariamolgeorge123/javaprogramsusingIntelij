@@ -99,6 +99,5 @@ Scanner sc=new Scanner(System.in);
                 System.err.println("Invalid Input");
                 break;
         }
-
     }
 }
