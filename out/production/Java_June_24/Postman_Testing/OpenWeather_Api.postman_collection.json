@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "d90a7238-bfda-4fb0-9afe-8c4884400c5d",
+		"name": "OpenWeather_Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28096170"
+	},
+	"item": [
+		{
+			"name": "checkCurrentWeather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?lat=43.6532&lon=79.3832&appid=00c231847a22869653ecafa8e5502301",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "43.6532"
+						},
+						{
+							"key": "lon",
+							"value": "79.3832"
+						},
+						{
+							"key": "appid",
+							"value": "00c231847a22869653ecafa8e5502301"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
