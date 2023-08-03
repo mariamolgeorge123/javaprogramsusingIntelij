@@ -24,6 +24,7 @@ public class DAteDemo2 {
     }
     public DAteDemo2(int day)
     {
+       // this();
         this.day=day;
     }
 
