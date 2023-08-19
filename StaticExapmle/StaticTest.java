@@ -2,6 +2,7 @@ package StaticExapmle;
 
 public class StaticTest {
     static int count=0;
+//   int count=0;
     StaticTest(){
         count++;
         System.out.println(count);

@@ -10,6 +10,7 @@ public class StaticMethodExample {
     public static void main(String[] args) {
 //        StaticMethodExample a=new StaticMethodExample();
 //        a.addtwo();
+        StaticMethodExample.addtwo();
         addtwo();
     }
 }

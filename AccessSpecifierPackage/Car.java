@@ -44,6 +44,7 @@ class CarData
 public class Car {
     public static void main(String[] args) {
         CarData data=new CarData();
+
         data.setName("Tesla");
         data.setBrand("S");
         data.setEngine_Type("S1");

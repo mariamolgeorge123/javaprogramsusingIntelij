@@ -24,11 +24,12 @@ class Mobile
         this.brand=brand;
         this.capacity=capacity;
         this.color=color;
+        this.printMobile();
 
     }
     public void printMobile()
     {
-        System.out.println("Mobile: "+brand+"/"+capacity+"/"+color);
+        System.out.println("Mobile: "+this.brand+"/"+capacity+"/"+this.color);
     }
 }
 public class ConstructorThis {

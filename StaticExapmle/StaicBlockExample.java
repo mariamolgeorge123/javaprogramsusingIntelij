@@ -1,9 +1,14 @@
 package StaticExapmle;
 
 public class StaicBlockExample {
+    StaicBlockExample()
     {
+        System.out.println("constructor");
+    }
+    {  //this is instance intilization block.it called when instance created
         System.out.println("satic block0");
     }
+
     static {
         System.out.println("satic block1");
     }

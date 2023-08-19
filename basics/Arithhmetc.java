@@ -1,6 +1,6 @@
 package basics;
 
-public class Arithhmetc {
+public class  Arithhmetc {
     public static void main(String[] args) {
         int x=10;
         int y=20;
