@@ -1,0 +1,30 @@
+create database demo_database
+show databases
+use demo_database
+create table Student(Id int primary key,Name nvarchar(200),Age int,UserName nvarchar(200),Password nvarchar(200))
+insert into Student(Id,Name,Age,UserName,Password)values(1,"Anu",13,"anu123","anu123")
+insert into Student values(2,"Anju",23,"Anju123","Anju123")
+select *FROM Student
+insert into Student values(3,"Manju",32,"Manju123","Maju123")
+insert into Student values(4,"Arathy",33,"Arathy123","Arathy123")
+insert into Student values(5,"Anna",21,"Anna123","Anna123")
+create table people(id int,age int)
+insert into people values(1,23);
+INSERT INTO people values(2,34);
+SELECT * from people
+delete from people
+delete from Student where Id=5
+select * FROM Student
+show tables
+select * from Student where Id=2
+insert into Student values(6,"Anna",21,"Anna123","Anna123")
+insert into Student values(7,"Anna",21,"Anna123","Anna123")
+insert into Student values(8,"Anna",22,"Anna123","Anna123")
+select distinct name,Age from Student where age>20
+select  name,Age from Student where age>20 and name="Anju"
+select * from Student where age in(13,23,34) order by age desc
+select  name,Age from Student where age>20 or name="Anu"
+select  name,Age from Student where age between 13 and 33
+select name,Age from Student where name LIKE 'a_u'
+Select count(name) as count_age,name,age   from Student group by name
+UPDATE Student set name="Ansu" where Age=13
